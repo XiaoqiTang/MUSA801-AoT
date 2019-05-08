@@ -1,0 +1,714 @@
+var imputeddata= [
+  {
+    "node_id": "001e06109416",
+    "lat": 41.916586,
+    "lon": -87.666406,
+    "info": "Active Node:\nscore is 75",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06109f62",
+    "lat": 41.954825,
+    "lon": -87.645248,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610b9e5",
+    "lat": 41.994597,
+    "lon": -87.655523,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610b9e9",
+    "lat": 41.96904,
+    "lon": -87.659672,
+    "info": "Active Node:\nscore is 87",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba15",
+    "lat": 41.722457,
+    "lon": -87.57535,
+    "info": "Active Node:\nscore is 53",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba16",
+    "lat": 41.891964,
+    "lon": -87.611603,
+    "info": "Active Node:\nscore is 76",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba18",
+    "lat": 41.852179,
+    "lon": -87.675825,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba3b",
+    "lat": 41.858136,
+    "lon": -87.616055,
+    "info": "Active Node:\nscore is 84",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba46",
+    "lat": 41.878377,
+    "lon": -87.627678,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba57",
+    "lat": 41.881172,
+    "lon": -87.686359,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba81",
+    "lat": 41.741148,
+    "lon": -87.54045,
+    "info": "Active Node:\nscore is 52",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba8b",
+    "lat": 41.7806,
+    "lon": -87.586456,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ba8f",
+    "lat": 41.810342,
+    "lon": -87.590228,
+    "info": "Active Node:\nscore is 64",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610bbe5",
+    "lat": 41.736495,
+    "lon": -87.614529,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610bbf9",
+    "lat": 41.768319,
+    "lon": -87.683396,
+    "info": "Active Node:\nscore is 61",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610bbff",
+    "lat": 41.857797,
+    "lon": -87.685806,
+    "info": "Active Node:\nscore is 62",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610bc07",
+    "lat": 41.878372,
+    "lon": -87.706042,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610bc10",
+    "lat": 41.736314,
+    "lon": -87.624179,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610bc12",
+    "lat": 41.75034,
+    "lon": -87.663518,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610e532",
+    "lat": 41.857959,
+    "lon": -87.656427,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610e537",
+    "lat": 41.961622,
+    "lon": -87.665948,
+    "info": "Active Node:\nscore is 69",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610e538",
+    "lat": 41.736593,
+    "lon": -87.604759,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610e539",
+    "lat": 41.880497,
+    "lon": -87.745268,
+    "info": "Active Node:\nscore is 57",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610e540",
+    "lat": 41.838618,
+    "lon": -87.607817,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610e809",
+    "lat": 41.903335,
+    "lon": -87.6674,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610e835",
+    "lat": 41.968757,
+    "lon": -87.679174,
+    "info": "Active Node:\nscore is 64",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ea5a",
+    "lat": 41.914202,
+    "lon": -87.683048,
+    "info": "Active Node:\nscore is 58",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee33",
+    "lat": 41.965089,
+    "lon": -87.679076,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee36",
+    "lat": 41.751295,
+    "lon": -87.605288,
+    "info": "Active Node:\nscore is 64",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee41",
+    "lat": 41.882304,
+    "lon": -87.671773,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee43",
+    "lat": 41.788608,
+    "lon": -87.598713,
+    "info": "Active Node:\nscore is 89",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee5d",
+    "lat": 41.923996,
+    "lon": -87.761072,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee61",
+    "lat": 41.880732,
+    "lon": -87.72566,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee6f",
+    "lat": 41.846897,
+    "lon": -87.673061,
+    "info": "Active Node:\nscore is 75",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ee82",
+    "lat": 41.921405,
+    "lon": -87.677766,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610eef2",
+    "lat": 41.965256,
+    "lon": -87.66672,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610eef4",
+    "lat": 41.912681,
+    "lon": -87.681052,
+    "info": "Active Node:\nscore is 79",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ef26",
+    "lat": 41.88431,
+    "lon": -87.647431,
+    "info": "Active Node:\nscore is 79",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ef27",
+    "lat": 41.846579,
+    "lon": -87.685557,
+    "info": "Active Node:\nscore is 78",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ef29",
+    "lat": 41.743814,
+    "lon": -87.614732,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ef68",
+    "lat": 41.857775,
+    "lon": -87.666144,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610ef73",
+    "lat": 41.718008,
+    "lon": -87.982901,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f05c",
+    "lat": 41.924903,
+    "lon": -87.687703,
+    "info": "Active Node:\nscore is 79",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f513",
+    "lat": 41.939121,
+    "lon": -87.723801,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f668",
+    "lat": 41.831827,
+    "lon": -87.675311,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f6db",
+    "lat": 41.791329,
+    "lon": -87.598677,
+    "info": "Active Node:\nscore is 60",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f6dd",
+    "lat": 41.895355,
+    "lon": -87.726064,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f703",
+    "lat": 41.87148,
+    "lon": -87.67644,
+    "info": "Active Node:\nscore is 62",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f730",
+    "lat": 41.94672,
+    "lon": -87.69068,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f732",
+    "lat": 41.895005,
+    "lon": -87.745817,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610f8f4",
+    "lat": 41.832579,
+    "lon": -87.646133,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0610fb4c",
+    "lat": 41.913583,
+    "lon": -87.682414,
+    "info": "Active Node:\nscore is 68",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06112e77",
+    "lat": 41.786756,
+    "lon": -87.664343,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e061130f4",
+    "lat": 41.896157,
+    "lon": -87.662391,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06113100",
+    "lat": 41.692769,
+    "lon": -87.609852,
+    "info": "Active Node:\nscore is 74",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113107",
+    "lat": 41.751142,
+    "lon": -87.71299,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e061135cb",
+    "lat": 41.779369,
+    "lon": -87.664421,
+    "info": "Active Node:\nscore is 84",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113a48",
+    "lat": 41.943263,
+    "lon": -87.688069,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06113acb",
+    "lat": 41.839066,
+    "lon": -87.665685,
+    "info": "Active Node:\nscore is 73",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113ace",
+    "lat": 41.83107,
+    "lon": -87.617298,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06113ad6",
+    "lat": 41.906481,
+    "lon": -87.671373,
+    "info": "Active Node:\nscore is 71",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113ad8",
+    "lat": 41.866786,
+    "lon": -87.666306,
+    "info": "Active Node:\nscore is 64",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113ba6",
+    "lat": 41.883541,
+    "lon": -87.666748,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06113cf1",
+    "lat": 41.884688,
+    "lon": -87.627864,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06113cff",
+    "lat": 41.751142,
+    "lon": -87.71299,
+    "info": "Active Node:\nscore is 74",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113d22",
+    "lat": 41.800846,
+    "lon": -87.703739,
+    "info": "Active Node:\nscore is 69",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113d32",
+    "lat": 41.947066,
+    "lon": -87.688326,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06113d83",
+    "lat": 41.910922,
+    "lon": -87.649518,
+    "info": "Active Node:\nscore is 72",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06113dbc",
+    "lat": 41.713867,
+    "lon": -87.536509,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06113f54",
+    "lat": 41.884607,
+    "lon": -87.624577,
+    "info": "Active Node:\nscore is 85",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0611441e",
+    "lat": 41.808594,
+    "lon": -87.665048,
+    "info": "Active Node:\nscore is 77",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e061144c0",
+    "lat": 41.764122,
+    "lon": -87.72242,
+    "info": "Active Node:\nscore is 74",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06114500",
+    "lat": 41.714494,
+    "lon": -87.643099,
+    "info": "Active Node:\nscore is 69",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06114503",
+    "lat": 41.666078,
+    "lon": -87.539374,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0611462f",
+    "lat": 41.823527,
+    "lon": -87.641054,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e061146ba",
+    "lat": 41.96759,
+    "lon": -87.76257,
+    "info": "Active Node:\nscore is 84",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e061146bc",
+    "lat": 41.918733,
+    "lon": -87.668257,
+    "info": "Active Node:\nscore is 75",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e061146cb",
+    "lat": 41.92617,
+    "lon": -87.631533,
+    "info": "Active Node:\nscore is 81",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e061146d6",
+    "lat": 41.903632,
+    "lon": -87.648093,
+    "info": "Active Node:\nscore is 72",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06114fcf",
+    "lat": 41.954825,
+    "lon": -87.645248,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06114fd4",
+    "lat": 41.794477,
+    "lon": -87.615957,
+    "info": "Active Node:\nscore is 74",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06114fd6",
+    "lat": 41.88449,
+    "lon": -87.636955,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06114fd9",
+    "lat": 41.92617,
+    "lon": -87.631533,
+    "info": "Active Node:\nscore is 84",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06115365",
+    "lat": 41.78843,
+    "lon": -87.59913,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e06115369",
+    "lat": 41.946373,
+    "lon": -87.727382,
+    "info": "Active Node:\nscore is 76",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e0611536c",
+    "lat": 41.88575,
+    "lon": -87.62969,
+    "info": "Active Node:\nscore is 79",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06115379",
+    "lat": 41.88326,
+    "lon": -87.63387,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  },
+  {
+    "node_id": "001e0611537d",
+    "lat": 41.794167,
+    "lon": -87.601646,
+    "info": "Active Node:\nscore is 80",
+    "score": 75,
+    "date": ""
+  },
+  {
+    "node_id": "001e06115382",
+    "lat": 41.88076,
+    "lon": -87.62775,
+    "info": "This is invalid node",
+    "score": "",
+    "date": ""
+  }
+]
